@@ -11,8 +11,5 @@ public class Jobsheet15_Group1 {
         System.out.println("3. Analisis Data KRS");
         System.out.println("4. Keluar");
     }
-        
-
-
     }
 }
