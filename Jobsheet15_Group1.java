@@ -46,7 +46,7 @@ public class Jobsheet15_Group1 {
 
                 // Check credit limit
                 if (totalCredits >= 20) {
-                    System.out.println("Error: Maximum credit limit (24 SKS) reached!");
+                    System.out.println("Error: Maximum credit limit (20 SKS) reached!");
                     continue;
                 }
 
@@ -67,7 +67,7 @@ public class Jobsheet15_Group1 {
 
                 // Check total credits after adding new course
                 if (totalCredits + sks > 20) {
-                    System.out.println("Error: Adding this course exceeds 24 SKS limit!");
+                    System.out.println("Error: Adding this course exceeds 20 SKS limit!");
                     continue;
                 }
 
@@ -140,7 +140,7 @@ public class Jobsheet15_Group1 {
                         }
                     }
 
-                    // Check if student has less than 20 SKS
+                    // Check student has less than 20 SKS
                     if (studentTotalCredits < 20) {
                         System.out.println("NIM: " + currentNIM);
                         System.out.println("Name: " + StudentName[i]);
